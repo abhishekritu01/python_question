@@ -20,7 +20,7 @@ def divide_chunks(lst):
 
     for i in range(start, end, step):
         chunk = lst[i:i+step]
-        print(chunk)
+        print(i)
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 

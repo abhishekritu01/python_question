@@ -12,5 +12,4 @@ for i in test_list:
 
     res.append(sum) 
 
-
 print("The sum list is : " + str(res))

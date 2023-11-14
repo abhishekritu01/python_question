@@ -11,9 +11,13 @@
 
 
 
-def reverse_list(list):
-    list.reverse()
-    return list
-list = [1,2,3,4,5]
+# def reverse_list(list):
+#     list.reverse()
+#     return list
+# list = [1,2,3,4,5]
 
-print(reverse_list(list))
+# print(reverse_list(list))
+
+
+# #  two pointer method
+
