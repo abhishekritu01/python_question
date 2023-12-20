@@ -45,10 +45,10 @@ class LinkedList:
 
 L = LinkedList()
 
-# L.insert_head(1)
-# L.insert_head(2)
-# L.insert_head(3)
-# L.insert_head(4)
+L.insert_head(1)
+L.insert_head(2)
+L.insert_head(3)
+L.insert_head(4)
 
 # L.insert_head(31).display()
 

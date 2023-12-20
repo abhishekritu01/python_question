@@ -61,4 +61,4 @@ L.insert_head(2)
 L.insert_head(3)
 L.insert_head(4)
 
-print(L[10])
+print(L[0])

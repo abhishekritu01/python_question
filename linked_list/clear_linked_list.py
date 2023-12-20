@@ -242,6 +242,10 @@ class LinkedList:
         return popped_value
 
     def remove_by_value(self, value):
+
+        if self.head.data == value:
+            return self.delete_head()
+
         curr = self.head
 
         while curr.next is not None:

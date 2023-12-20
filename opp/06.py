@@ -1,13 +1,21 @@
 class BankAccount:
+
+
+    # static class variable -----> # static class variable is a variable which is common for all the objects and it is also a constant variable
+
+    counter = 0  # class variable -----> # class variable is a variable which is common for all the objects
+
+
     def __init__(self):
 
         # instance variable--------> # instance variable is a variable which is unique for every object
-       
+    
         # encapsulation -----> # encapsulation is a process of binding data and methods together in a class so that no one can access it directly
         self.__pin = None
         self.__balance = 0
-        print(id(self), 'self')
-
+        self.__pin =""
+        self.__counter = 0
+        BankAccount.counter += 1
 
     def create_pin(self):
         if self.__pin is not None:

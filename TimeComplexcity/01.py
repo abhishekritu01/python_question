@@ -1,9 +1,7 @@
 
-import time 
+# import time 
+# start = time.time()
+# for i in range(1,101):
+#     print(i)
 
-start = time.time()
-
-for i in range(1,101):
-    print(i)
-
-print(time.time()-start)    
+# print(time.time()-start)    
